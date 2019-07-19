@@ -1,6 +1,10 @@
-.selected .badge {
+a .badge {
   background-color: purple;
   color: white;
+}
+
+a {
+  text-decoration: none;
 }
 
 .heroes {
@@ -25,6 +29,10 @@
   color: #607D8B;
   background-color: #DDD;
   left: .1em;
+}
+
+.heroes a:hover {
+  color:#607D8B;
 }
 
 .badge {
