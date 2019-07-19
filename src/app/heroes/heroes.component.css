@@ -1,0 +1,29 @@
+.heroes {
+  margin: 0.3rem;
+  border-radius: 5px;
+  padding: 0;
+  list-style-type: none;
+  width: 15rem;
+}
+
+.heroes li {
+  background-color: gainsboro;
+  margin: 0.3rem;
+  border-radius: 5px;
+  padding: 0.5rem 0;
+  cursor: pointer;
+  position: relative;
+  left: 0;
+}
+
+.heroes li:hover {
+  color: #607D8B;
+  background-color: #DDD;
+  left: .1em;
+}
+
+.badge {
+  background-color: rgb(164, 129, 199);
+  padding: 0.5rem;
+  border-radius: 5px 0 0 5px;
+}
